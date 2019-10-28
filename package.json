@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willtk0113/Natours.git"
+  },
+  "author": "Taehwan Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willtk0113/Natours/issues"
+  },
+  "homepage": "https://github.com/willtk0113/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
